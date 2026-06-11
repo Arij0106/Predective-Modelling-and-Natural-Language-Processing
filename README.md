@@ -57,18 +57,3 @@ To ensure the multi-class model is highly stable and reliable, performance is va
 * **F1-Score:** Harmonic evaluation balance score pairing Precision and Recall.
 
 ---
-
-##  Quick Start & Usage
-
-To directly access and execute this notebook within Google Colab without manual local dataset file configurations, you can pull the raw data asset straight into your environment with the following initialization code snippet:
-
-```python
-import pandas as pd
-
-# Direct streaming configuration from GitHub source tracking URL
-url = "https://raw.githubusercontent.com/Arij0106/Predective-Modelling-and-Natural-Language-Processing/refs/heads/main/sentiment.csv"
-df = pd.read_csv(url)
-
-# Proceed to data processing pipeline execution
-print(df.head())
-```
